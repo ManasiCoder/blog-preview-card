@@ -1,0 +1,20 @@
+:root {
+    
+    /* Colors */
+    
+    --white: #FFFFFF;
+    --yellow: #F4D04E;
+    --gray-500: #6B6B6B;
+    --gray-950: #111111;
+
+    /* Spacing */
+
+    --high-space: 24px;
+    --medium-space: 16px;
+    --low-space: 8px;
+    --very-low-space: 4px;
+
+    /* border-radius */
+    --high-radius: 20px;
+    --medium-radius: 10px;
+}
