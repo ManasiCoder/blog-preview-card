@@ -1,5 +1,6 @@
-img.article-image {
+div.article-image {
     width: 100%;
-    margin: 0 auto;
+    height: 200px;
+    background-image: url("../images/illustration-article.svg");
     border-radius: var(--medium-radius);
 }

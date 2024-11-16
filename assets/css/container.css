@@ -1,7 +1,9 @@
 main.container {
-    padding: var(--high-space);
+    display: grid;
+    gap: var(--high-size);
+    padding: var(--high-size);
     background-color: var(--white);
     border: 1px solid var(--gray-950);
     border-radius: var(--high-radius);
-    box-shadow: var(--low-space) var(--low-space);
+    box-shadow: var(--very-low-size) var(--very-low-size);
 }

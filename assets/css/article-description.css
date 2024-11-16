@@ -1,0 +1,22 @@
+section.article-description {
+    span.tag,
+    div.data {
+        font-size: var(--low-size);
+    }
+
+    span.tag {
+        padding: var(--minimun-size) var(--low-size);
+        font-weight: 800;
+        background-color: var(--yellow);
+        border-radius: var(--minimun-size);
+    }
+
+    h1 {
+        font-size: var(--high-radius);
+        font-weight: 900;
+    }
+
+    p {
+        color: var(--);
+    }
+}

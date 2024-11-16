@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 :root {
     
     /* Colors */
@@ -7,12 +9,13 @@
     --gray-500: #6B6B6B;
     --gray-950: #111111;
 
-    /* Spacing */
+    /* size */
 
-    --high-space: 24px;
-    --medium-space: 16px;
-    --low-space: 8px;
-    --very-low-space: 4px;
+    --high-size: 24px;
+    --medium-size: 16px;
+    --low-size: 12px;
+    --very-low-size: 8px;
+    --minimun-size: 4px;
 
     /* border-radius */
     --high-radius: 20px;
