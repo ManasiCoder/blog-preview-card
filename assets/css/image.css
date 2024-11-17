@@ -2,5 +2,7 @@ div.article-image {
     width: 100%;
     height: 200px;
     background-image: url("../images/illustration-article.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: var(--medium-radius);
 }

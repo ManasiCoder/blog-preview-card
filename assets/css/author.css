@@ -1,0 +1,15 @@
+section.author {
+    width: 100%;
+    display: flex;
+    gap: var(--low-size);
+    align-items: center;
+
+    img {
+        max-width: var(--very-high-size);
+    }
+
+    h2 {
+        font-size: var(--medium-size);
+        font-weight: 800;
+    }
+}

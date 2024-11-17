@@ -1,10 +1,14 @@
 section.article-description {
+    display: grid;
+    gap: var(--low-size);
+
     span.tag,
     div.data {
         font-size: var(--low-size);
     }
 
     span.tag {
+        max-width: 73px;
         padding: var(--minimun-size) var(--low-size);
         font-weight: 800;
         background-color: var(--yellow);
@@ -17,6 +21,30 @@ section.article-description {
     }
 
     p {
-        color: var(--);
+        font-size: 14px;
+        color: var(--gray-500);
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    section.article-description {
+
+        span.tag,
+        div.data {
+            font-size: 14px;
+        }
+
+        span.tag {
+            max-width: 82px;
+        }
+
+        h1 {
+            font-size: var(--high-size);
+        }
+
+        p {
+            font-size: var(--medium-size);
+        }
     }
 }
